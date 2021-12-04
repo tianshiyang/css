@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex: 1</title>
+    <link rel="stylesheet" type="text/css" href="./flex.css" />
+  </head>
+  <body>
+    <div class="grow-father">
+      <!-- flex-grow占用父元素的比例 -->
+      <div class="grow-child1">flex-grow: 2</div>
+      <div class="grow-child2">flex-grow: 6</div>
+    </div>
+    <hr />
+    <!-- flex-shrink超出部分的缩放比例 -->
+    <div class="shrink">
+      <div class="shrink-child1">shrink-child1</div>
+      <div class="shrink-child2">shrink-child2</div>
+    </div>
+    <hr/>
+    <!-- flex-basis占父容器的比例，如果父容器没有宽度，则为当前可见视图层比例（响应式） -->
+    <div class="basis">
+      <div class="basis-child1">basis-child1</div>
+      <div class="basis-child2">basis-child2</div>
+    </div>
+    <hr/>
+    <!-- flex:1自动填充满剩余空间，如果其他盒子存在flex：2等，则按着flex-grow的方式计算 -->
+    <div class="flex">
+      <div class="flex-child1">flex-child1</div>
+      <div class="flex-child2">flex-child3</div>
+      <div class="flex-child3">flex-child3</div>
+    </div>
+  </body>
+</html>

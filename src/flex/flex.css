@@ -1,0 +1,71 @@
+html {
+  font-size: 20px;
+  font-weight: 600;
+  color: #eeeeee;
+}
+.grow-father {
+  width: 800px;
+  height: 200px;
+  background-color: aqua;
+  display: flex;
+}
+.grow-child1 {
+  flex-grow: 2;
+  background-color: red;
+}
+.grow-child2 {
+  flex-grow: 6;
+  background-color: royalblue;
+}
+
+.shrink {
+  width: 800px;
+  height: 200px;
+  background-color: aqua;
+  display: flex;
+}
+.shrink-child1 {
+  width: 800px;
+  flex-shrink: 1;
+  background-color: red;
+}
+.shrink-child2 {
+  width: 800px;
+  flex-shrink: 3;
+  background-color: royalblue;
+}
+
+.basis {
+  width: 800px;
+  height: 200px;
+  background-color: aqua;
+  display: flex;
+}
+.basis-child1 {
+  flex-basis: 80%;
+  background-color: red;
+}
+.basis-child2 {
+  width: 100px;
+  background-color: royalblue;
+}
+
+.flex {
+  width: 800px;
+  height: 200px;
+  background-color: aqua;
+  display: flex;
+}
+.flex-child1 {
+  flex: 1;
+  background-color: red;
+}
+.flex-child2 {
+  flex: 2;
+  width: 100px;
+  background-color: royalblue;
+}
+.flex-child3 {
+  width: 200px;
+  background-color: sandybrown;
+}
